@@ -479,7 +479,6 @@ const core = __nccwpck_require__(186);
 
 const scan = __nccwpck_require__(612);
 
-// most @actions toolkit packages have async methods
 async function run() {
   try {
     const url = core.getInput("url");
