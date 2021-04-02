@@ -3,7 +3,6 @@ const core = require("@actions/core");
 
 const scan = require("./scan");
 
-// most @actions toolkit packages have async methods
 async function run() {
   try {
     const url = core.getInput("url");
