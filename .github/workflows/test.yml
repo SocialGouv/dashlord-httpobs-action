@@ -26,3 +26,4 @@ jobs:
         output: something.json
     - run: |
         ls
+        cat something.json
