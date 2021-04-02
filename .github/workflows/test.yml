@@ -23,3 +23,6 @@ jobs:
     - uses: ./
       with:
         url: https://www.free.fr
+        output: something.json
+    - run: |
+        ls

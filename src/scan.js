@@ -22,6 +22,7 @@ const scan = (url, tries = MAX_TRIES) => {
     .then((r) => r.json())
     .then((result) => {
       if (result.error) {
+        console.error("e", result.error);
         throw new Error(result.error);
       }
       if (result.state === "FINISHED") {
