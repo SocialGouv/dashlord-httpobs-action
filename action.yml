@@ -1,0 +1,13 @@
+name: 'Run Mozilla HTTP Observatory scan'
+description: 'Run a scan on https://observatory.mozilla.org API'
+inputs:
+  url: 
+    description: 'URL ro scan'
+    required: true
+  output:
+    description: 'Path to output file. defaults to httpobs.json'
+    default: 'httpobs.json'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
