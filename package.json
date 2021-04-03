@@ -1,5 +1,5 @@
 {
-  "name": "dashlord-httpobs-action",
+  "name": "httpobs-action",
   "version": "1.0.0",
   "description": "Run Mozilla HTTP Observatory scan",
   "main": "./src/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/socialgouv/dashlord-httpobs-action.git"
+    "url": "git+https://github.com/socialgouv/httpobs-action.git"
   },
   "keywords": [
     "GitHub",
@@ -24,9 +24,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/socialgouv/dashlord-httpobs-action/issues"
+    "url": "https://github.com/socialgouv/httpobs-action/issues"
   },
-  "homepage": "https://github.com/socialgouv/dashlord-httpobs-action#readme",
+  "homepage": "https://github.com/socialgouv/httpobs-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.5",
     "node-fetch": "^2.6.1",

@@ -1,4 +1,4 @@
-# dashlord-httpobs-action
+# httpobs-action
 
 Run Mozilla HTTP Observatory scan and report results as JSON.
 
@@ -9,7 +9,7 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
-      - uses: "socialgouv/dashlord-httpobs-action@master"
+      - uses: "socialgouv/httpobs-action@master"
         with:
           url: http://www.free.fr
           output: report.json
