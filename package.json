@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/socialgouv/httpobs-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.5",
+    "@actions/core": "^1.3.0",
     "node-fetch": "^2.6.1",
     "splitted-url": "^1.0.16"
   },
