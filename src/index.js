@@ -12,6 +12,7 @@ async function run() {
     fs.writeFileSync(output, JSON.stringify(results));
   } catch (error) {
     core.setFailed(error.message);
+    throw new Error(error.message);
   }
 }
 
